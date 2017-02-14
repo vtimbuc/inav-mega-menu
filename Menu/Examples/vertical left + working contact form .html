@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>iNav - CSS3 Menu</title>
+
+	<!-- Stylesheets -->
+	<link href="css/inav.css" rel="stylesheet" media="screen">
+	<!--[if IE 8]><link href="css/inav-ie-8.css" rel="stylesheet" media="screen"><![endif]-->
+	<!--[if IE 7]><link href="css/inav-ie-7.css" rel="stylesheet" media="screen"><![endif]-->
+
+	<!-- Preview Page CSS -->
+	<style type="text/css">
+		body{margin:0;padding:0;}#top-color{width:100%;height:50px;background-color:#e4e4e4;-webkit-box-shadow:inset 0px -5px 20px rgba(0,0,0,0.1),0px 5px 5px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px -5px 20px rgba(0,0,0,0.1),0px 5px 5px rgba(0,0,0,0.1);box-shadow:inset 0px -5px 20px rgba(0,0,0,0.1),0px 5px 5px rgba(0,0,0,0.1)}#top-name{text-align:center}h1.cname{color:#333;font-family:Helvetica,sans-serif}#wrapper{width:960px;margin:0 auto}ul.lcolor{margin:0 auto;width:462px;padding:0}ul.lcolor li{list-style:none;float:left;margin:8px 5px 0 5px}ul.lcolor li a{width:30px;height:30px;display:block;text-indent:-9999px;border:1px solid #666}a.cdefault{background-color:#5E5E5E}a.cblue{background-color:#38d}a.cdarkcyan{background-color:#008B8B}a.cgreen{background-color:#2d9718}a.cyellowgreen{background-color:#89b62c}a.cchocolate{background-color:#a15d2c}a.cgold{background-color:#dfbe0b}a.cred{background-color:#b82626}a.cpurple{background-color:#9d249d}a.chotpink{background-color:#e44a97}a.cwhite{background-color:#fff}
+	</style>
+	<!-- end Preview Page CSS -->
+
+</head>
+<body>
+
+<!-- Preview Page HTML -->
+<div id="top-color">
+
+	<ul class="lcolor">
+	<li><a href="#" class="cdefault">default</a></li>
+	<li><a href="#" class="cblue">blue</a></li>
+	<li><a href="#" class="cdarkcyan">darkcyan</a></li>
+	<li><a href="#" class="cgreen">green</a></li>
+	<li><a href="#" class="cyellowgreen">yellowgreen</a></li>
+	<li><a href="#" class="cchocolate">chocolate</a></li>
+	<li><a href="#" class="cgold">gold</a></li>
+	<li><a href="#" class="cred">red</a></li>
+	<li><a href="#" class="cpurple">purple</a></li>
+	<li><a href="#" class="chotpink">hotpink</a></li>
+	<li><a href="#" class="cwhite">white</a></li>
+	</ul>
+
+</div>
+
+<div id="top-name">
+	<h1 class="cname">Default Color</h1>
+</div>
+<!-- end Preview Page HTML -->
+
+
+
+<div id="wrapper">
+
+<!-- MENU START -->
+	
+	<ul class="nav vertical">
+
+		<!-- Home Item | Start -->
+
+		<li class="first"><a href="#" class="home nav-item first">Home</a></li>
+
+		<!-- Home Item | End -->
+
+
+		<!-- Blog Item | Start -->
+
+		<li><a href="#" class="nav-item drop">Blog</a>
+
+			<div class="drop-4-col">
+
+				<div class="col-2">
+
+					<h2>CodeCanyon Marketplace</h2>
+					<img src="img/codecanyon.png" alt="codecanyon">
+					<p><a href="#">CodeCanyon</a> is an <a href="#">Envato Marketplace</a>. At CodeCanyon, you can purchase and sell scripts and components for a variety of languages and frameworks, currently including JavaScript, PHP, ASP.NET ...</p>
+					<a href="#" class="button">read more</a>
+
+				</div><!-- end .col-2 -->
+
+				<div class="col-2">
+					
+					<h2>GraphicRiver Marketplace</h2>
+					<img src="img/graphicriver.png" alt="graphicriver">
+					<p><a href="#">GraphicRiver</a> is an <a href="#">Envato Marketplace</a>. At GraphicRiver you can buy and sell royalty-free, layered Photoshop files, vectors, icon packs, Adobe add-ons and design templates for just a few dollars ...</p>
+					<a href="#" class="button">read more</a>
+
+				</div><!-- end .col-2 -->
+
+			</div><!-- end .drop-4-col -->
+
+		</li>
+
+		<!-- Blog Item | End -->
+
+
+		<!-- Store Item | Start -->
+
+		<li><a href="#" class="nav-item drop">Store</a>
+
+			<div class="drop-3-col">
+
+				<div class="col-1">
+					
+					<h2>iMac</h2>
+					<img src="img/imac.png" alt="iMac">
+					<a href="#" class="button">Buy Now | $1,199</a>
+
+				</div><!-- end .col-1 -->
+				
+				<div class="col-1">
+
+					<h2>MacBook Pro</h2>
+					<img src="img/macbook.png" alt="MacBook Pro">
+					<a href="#" class="button">Buy Now | $1,199</a>
+
+				</div><!-- end .col-1 -->
+				
+				<div class="col-1">
+				
+					<h2>iPad 2</h2>
+					<img src="img/ipad.png" alt="iPad 2">
+					<a href="#" class="button">Buy Now | $499</a>					
+
+				</div><!-- end .col-1 -->
+
+			</div><!-- end .drop-3-col -->
+
+		</li>
+
+		<!-- Store Item | End -->
+
+
+		<!-- Links Item | Start -->
+
+		<li class="full-col"><a href="#" class="nav-item drop">Links</a>
+
+			<div class="drop-full-col">
+				
+				<div class="col-1">
+
+					<ul class="links">
+						<li><a href="#">CodeCanyon</a></li>
+						<li><a href="#">ThemeForest</a></li>
+						<li><a href="#">GraphicRiver</a></li>
+						<li><a href="#">ActiveDen</a></li>
+						<li><a href="#">PhotoDune</a></li>
+					</ul><!-- end .links -->
+					
+				</div><!-- end .col-1 -->
+
+				<div class="col-1">
+
+					<ul class="links">
+						<li><a href="#">CodeCanyon</a></li>
+						<li><a href="#">ThemeForest</a></li>
+						<li><a href="#">GraphicRiver</a></li>
+						<li><a href="#">ActiveDen</a></li>
+						<li><a href="#">PhotoDune</a></li>
+					</ul><!-- end .links -->
+					
+				</div><!-- end .col-1 -->
+
+				<div class="col-1">
+
+					<ul class="links">
+						<li><a href="#">CodeCanyon</a></li>
+						<li><a href="#">ThemeForest</a></li>
+						<li><a href="#">GraphicRiver</a></li>
+						<li><a href="#">ActiveDen</a></li>
+						<li><a href="#">PhotoDune</a></li>
+					</ul><!-- end .links -->
+					
+				</div><!-- end .col-1 -->
+
+				<div class="col-1">
+
+					<ul class="links">
+						<li><a href="#">CodeCanyon</a></li>
+						<li><a href="#">ThemeForest</a></li>
+						<li><a href="#">GraphicRiver</a></li>
+						<li><a href="#">ActiveDen</a></li>
+						<li><a href="#">PhotoDune</a></li>
+					</ul><!-- end .links -->
+					
+				</div><!-- end .col-1 -->
+
+				<div class="col-1">
+
+					<ul class="links">
+						<li><a href="#">CodeCanyon</a></li>
+						<li><a href="#">ThemeForest</a></li>
+						<li><a href="#">GraphicRiver</a></li>
+						<li><a href="#">ActiveDen</a></li>
+						<li><a href="#">PhotoDune</a></li>
+					</ul><!-- end .links -->
+					
+				</div><!-- end .col-1 -->
+
+			</div><!-- end .drop-full-col -->
+
+		</li>
+
+		<!-- Links Item | End -->
+
+
+		<!-- Dropdown Item | Start -->
+
+		<li><a href="#" class="nav-item drop">Dropdown</a>
+
+			<ul class="dropdown">
+
+				<li><a href="#">CodeCanyon</a></li>
+				<li><a href="#">ThemeForest</a></li>
+				<li class="drop"><a href="#">GraphicRiver</a>
+
+					<ul>
+						<li><a href="#">CodeCanyon</a></li>
+						<li><a href="#">ThemeForest</a></li>
+						<li><a href="#">GraphicRiver</a></li>
+						<li class="drop"><a href="#">ActiveDen</a>
+
+							<ul>
+								
+								<li><a href="#">CodeCanyon</a></li>
+								<li><a href="#">ThemeForest</a></li>
+								<li><a href="#">GraphicRiver</a></li>
+								<li><a href="#">ActiveDen</a></li>
+								<li><a href="#">PhotoDune</a></li>
+	
+							</ul>
+
+						</li>
+						<li><a href="#">PhotoDune</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#">ActiveDen</a></li>
+				<li><a href="#">PhotoDune</a></li>
+			
+			</ul><!-- end .dropdown -->
+
+		</li>
+
+		<!-- Dropdown Item | End -->
+
+
+		<!-- Login Item | Start -->
+
+		<li class="login-nav"><a href="#" class="nav-item drop">Login</a>
+
+			<div class="drop-form">
+				
+				<form action="#">
+
+					<input type="text" name="user" id="user" placeholder="Username" required>
+					<input type="password" name="pass" id="pass" placeholder="Password" required>
+					<input type="submit" value="Log in" >
+
+					<p>
+						<input type="checkbox" name="checkbox" id="checkbox"> Remember Me
+						<a href="#">Forgot your password?</a>
+					</p>
+
+				</form>
+
+			</div><!-- end .drop-form -->
+
+		</li>
+
+		<!-- Login Item | End -->
+
+		
+		<!-- Contact Item | Start -->
+
+		<li class="contact-nav"><a href="#" class="nav-item drop">Contact</a>
+
+			<div class="drop-form left">
+
+				<div class="inav-cffb"><div class="inav-alert"></div></div>
+
+				<form action="contact/process.php" method="post" id="inav-cform">
+					
+					<input type="text" name="name" id="name" placeholder="Your Name">
+					<input type="email" name="email" id="email" placeholder="email@email.com">
+					<textarea name="message" id="message"></textarea>
+					<input type="submit" value="Send Message">
+
+				</form>
+
+				<hr>
+
+				<ul class="social">
+					<li><a href="#"><img src="img/social/facebook.png" alt="Facebook"></a></li>
+					<li><a href="#"><img src="img/social/twitter.png" alt="Twitter"></a></li>
+					<li><a href="#"><img src="img/social/rss.png" alt="RSS Feed"></a></li>
+					<li><a href="#"><img src="img/social/vimeo.png" alt="Vimeo"></a></li>
+					<li><a href="#"><img src="img/social/dribbble.png" alt="Dribbble"></a></li>
+				</ul>
+
+			</div><!-- end .drop-normal-box -->
+
+		</li>
+
+		<!-- Contact Item | End -->
+		
+
+		<!-- Search Form | Start -->	
+		
+		<li class="search-nav last">
+			
+			<form action="#">
+				
+				<input type="text" placeholder="Search...">
+			
+			</form>
+
+		</li>
+
+		<!-- Search Form | End -->
+	
+	</ul><!-- end .nav -->
+
+<!-- MENU END -->
+
+</div>
+
+<!-- Contact Form JS -->
+<script type="text/javascript" src="contact/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="contact/jquery-form.min.js"></script>
+<!-- end Contact Form JS -->
+
+<!-- Preview Page JS -->
+<script type="text/javascript">
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('$(n).l(4(){$(\'.j\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\');$(\'.g\').h(\'k b\')});$(\'.m\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'5\');$(\'.g\').h(\'o b\')});$(\'.p\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'2\');$(\'.g\').h(\'q b\')});$(\'.r\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'3\');$(\'.g\').h(\'s b\')});$(\'.t\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'1\');$(\'.g\').h(\'u b\')});$(\'.v\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'0\');$(\'.g\').h(\'w b\')});$(\'.x\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'6\');$(\'.g\').h(\'y b\')});$(\'.z\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'7\');$(\'.g\').h(\'A b\')});$(\'.B\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'8\');$(\'.g\').h(\'C b\')});$(\'.D\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'9\');$(\'.g\').h(\'E b\')});$(\'.F\').c(4(){$(\'d.e\').f(\'5 2 3 1 0 6 7 8 9 a\').i(\'a\');$(\'.g\').h(\'G b\')})});',43,43,'chocolate|yellowgreen|darkcyan|green|function|blue|gold|red|purple|hotpink|white|Color|click|ul|nav|removeClass|cname|html|addClass|cdefault|Default|ready|cblue|document|Blue|cdarkcyan|DarkCyan|cgreen|Green|cyellowgreen|YellowGreen|cchocolate|Chocolate|cgold|Gold|cred|Red|cpurple|Purple|chotpink|HotPink|cwhite|White'.split('|'),0,{}))
+</script>
+<!-- end Preview Page JS -->
+
+</body>
+</html>

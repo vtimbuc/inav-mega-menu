@@ -1,0 +1,78 @@
+ul.nav li {
+	border-color: #bdbdbd;
+}
+
+ul.nav li.search-nav input {
+	border-color: #bdbdbd;
+	color: #fff;
+}
+
+ul.nav li.search-nav input:hover,ul.nav li.search-nav input:focus {
+	border-color: #fff;
+}
+
+ul.nav li ul.dropdown li:hover > ul {
+	top: -17px;
+}
+
+/* Blue Color */
+ul.blue li,ul.blue li .drop-full-col,ul.blue li .drop-4-col,ul.blue li .drop-3-col,ul.blue li .drop-2-col,ul.blue li .drop-1-col,ul.blue li .drop-form,ul.blue li ul.dropdown,ul.blue li ul.dropdown li > ul,ul.blue li.search-nav input,ul.blue li a.last,ul.blue li.last,#footer-nav ul.blue li .drop-full-col,#footer-nav ul.blue li .drop-4-col,#footer-nav ul.blue li .drop-3-col,#footer-nav ul.blue li .drop-2-col,#footer-nav ul.blue li .drop-1-col,#footer-nav ul.blue li .drop-form,#footer-nav ul.blue li ul.dropdown,#footer-nav ul.blue li ul.dropdown li > ul {
+	border-color: #3380dd;
+}
+
+/* Green Color */
+ul.green li,ul.green li .drop-full-col,ul.green li .drop-4-col,ul.green li .drop-3-col,ul.green li .drop-2-col,ul.green li .drop-1-col,ul.green li .drop-form,ul.green li ul.dropdown,ul.green li ul.dropdown li > ul,ul.green li.search-nav input,ul.green li a.last,ul.green li.last,#footer-nav ul.green li .drop-full-col,#footer-nav ul.green li .drop-4-col,#footer-nav ul.green li .drop-3-col,#footer-nav ul.green li .drop-2-col,#footer-nav ul.green li .drop-1-col,#footer-nav ul.green li .drop-form,#footer-nav ul.green li ul.dropdown,#footer-nav ul.green li ul.dropdown li > ulgreen {
+	border-color: #298c16;
+}
+
+/* Red Color */
+ul.red li,ul.red li .drop-full-col,ul.red li .drop-4-col,ul.red li .drop-3-col,ul.red li .drop-2-col,ul.red li .drop-1-col,ul.red li .drop-form,ul.red li ul.dropdown,ul.red li ul.dropdown li > ul,ul.red li.search-nav input,ul.red li a.last,ul.red li.last,#footer-nav ul.red li .drop-full-col,#footer-nav ul.red li .drop-4-col,#footer-nav ul.red li .drop-3-col,#footer-nav ul.red li .drop-2-col,#footer-nav ul.red li .drop-1-col,#footer-nav ul.red li .drop-form,#footer-nav ul.red li ul.dropdown,#footer-nav ul.red li ul.dropdown li > ul {
+	border-color: #ad0909;
+}
+
+/* YellowGreen Color */
+ul.yellowgreen li,ul.yellowgreen li .drop-full-col,ul.yellowgreen li .drop-4-col,ul.yellowgreen li .drop-3-col,ul.yellowgreen li .drop-2-col,ul.yellowgreen li .drop-1-col,ul.yellowgreen li .drop-form,ul.yellowgreen li ul.dropdown,ul.yellowgreen li ul.dropdown li > ul,ul.yellowgreen li.search-nav input,ul.yellowgreen li a.last,ul.yellowgreen li.last,#footer-nav ul.yellowgreen li .drop-full-col,#footer-nav ul.yellowgreen li .drop-4-col,#footer-nav ul.yellowgreen li .drop-3-col,#footer-nav ul.yellowgreen li .drop-2-col,#footer-nav ul.yellowgreen li .drop-1-col,#footer-nav ul.yellowgreen li .drop-form,#footer-nav ul.yellowgreen li ul.dropdown,#footer-nav ul.yellowgreen li ul.dropdown li > ul {
+	border-color: #76a614;
+}
+
+/* HotPink Color */
+ul.hotpink li,ul.hotpink li .drop-full-col,ul.hotpink li .drop-4-col,ul.hotpink li .drop-3-col,ul.hotpink li .drop-2-col,ul.hotpink li .drop-1-col,ul.hotpink li .drop-form,ul.hotpink li ul.dropdown,ul.hotpink li ul.dropdown li > ul,ul.hotpink li.search-nav input,ul.hotpink li a.last,ul.hotpink li.last,#footer-nav ul.hotpink li .drop-full-col,#footer-nav ul.hotpink li .drop-4-col,#footer-nav ul.hotpink li .drop-3-col,#footer-nav ul.hotpink li .drop-2-col,#footer-nav ul.hotpink li .drop-1-col,#footer-nav ul.hotpink li .drop-form,#footer-nav ul.hotpink li ul.dropdown,#footer-nav ul.hotpink li ul.dropdown li > ul {
+	border-color: #d5217b;
+}
+
+/* Gold Color */
+ul.gold li,ul.gold li .drop-full-col,ul.gold li .drop-4-col,ul.gold li .drop-3-col,ul.gold li .drop-2-col,ul.gold li .drop-1-col,ul.gold li .drop-form,ul.gold li ul.dropdown,ul.gold li ul.dropdown li > ul,ul.gold li.search-nav input,ul.gold li a.last,ul.gold li.last,#footer-nav ul.gold li .drop-full-col,#footer-nav ul.gold li .drop-4-col,#footer-nav ul.gold li .drop-3-col,#footer-nav ul.gold li .drop-2-col,#footer-nav ul.gold li .drop-1-col,#footer-nav ul.gold li .drop-form,#footer-nav ul.gold li ul.dropdown,#footer-nav ul.gold li ul.dropdown li > ul {
+	border-color: #cdae0a;
+}
+
+/* Chocolate Color */
+ul.chocolate li,ul.chocolate li .drop-full-col,ul.chocolate li .drop-4-col,ul.chocolate li .drop-3-col,ul.chocolate li .drop-2-col,ul.chocolate li .drop-1-col,ul.chocolate li .drop-form,ul.chocolate li ul.dropdown,ul.chocolate li ul.dropdown li > ul,ul.chocolate li.search-nav input,ul.chocolate li a.last,ul.chocolate li.last,#footer-nav ul.chocolate li .drop-full-col,#footer-nav ul.chocolate li .drop-4-col,#footer-nav ul.chocolate li .drop-3-col,#footer-nav ul.chocolate li .drop-2-col,#footer-nav ul.chocolate li .drop-1-col,#footer-nav ul.chocolate li .drop-form,#footer-nav ul.chocolate li ul.dropdown,#footer-nav ul.chocolate li ul.dropdown li > ulchocolate {
+	border-color: #97582b;
+}
+
+/* DarkCyan Color */
+ul.darkcyan li,ul.darkcyan li .drop-full-col,ul.darkcyan li .drop-4-col,ul.darkcyan li .drop-3-col,ul.darkcyan li .drop-2-col,ul.darkcyan li .drop-1-col,ul.darkcyan li .drop-form,ul.darkcyan li ul.dropdown,ul.darkcyan li ul.dropdown li > ul,ul.darkcyan li.search-nav input,ul.darkcyan li a.last,ul.darkcyan li.last,#footer-nav ul.darkcyan li .drop-full-col,#footer-nav ul.darkcyan li .drop-4-col,#footer-nav ul.darkcyan li .drop-3-col,#footer-nav ul.darkcyan li .drop-2-col,#footer-nav ul.darkcyan li .drop-1-col,#footer-nav ul.darkcyan li .drop-form,#footer-nav ul.darkcyan li ul.dropdown,#footer-nav ul.darkcyan li ul.dropdown li > ul {
+	border-color: #007878;
+}
+
+/* Purple Color */
+ul.purple li,ul.purple li .drop-full-col,ul.purple li .drop-4-col,ul.purple li .drop-3-col,ul.purple li .drop-2-col,ul.purple li .drop-1-col,ul.purple li .drop-form,ul.purple li ul.dropdown,ul.purple li ul.dropdown li > ul,ul.purple li.search-nav input,ul.purple li a.last,ul.purple li.last,#footer-nav ul.purple li .drop-full-col,#footer-nav ul.purple li .drop-4-col,#footer-nav ul.purple li .drop-3-col,#footer-nav ul.purple li .drop-2-col,#footer-nav ul.purple li .drop-1-col,#footer-nav ul.purple li .drop-form,#footer-nav ul.purple li ul.dropdown,#footer-nav ul.purple li ul.dropdown li > ul {
+	border-color: #9d249d;
+}
+
+/* White Color */
+ul.white li,ul.white li .drop-full-col,ul.white li .drop-4-col,ul.white li .drop-3-col,ul.white li .drop-2-col,ul.white li .drop-1-col,ul.white li .drop-form,ul.white li ul.dropdown,ul.white li ul.dropdown li > ul,ul.white li.search-nav input,ul.white li a.last,ul.white li.last,#footer-nav ul.white li .drop-full-col,#footer-nav ul.white li .drop-4-col,#footer-nav ul.white li .drop-3-col,#footer-nav ul.white li .drop-2-col,#footer-nav ul.white li .drop-1-col,#footer-nav ul.white li .drop-form,#footer-nav ul.white li ul.dropdown,#footer-nav ul.white li ul.dropdown li > ulwhite {
+	border-color: #c6c6c6;
+}
+
+ul.white li.search-nav input {
+	color: #333;
+}
+
+ul.white li.search-nav input:focus,ul.white li.search-nav input:hover {
+	border: 1px solid #666;
+}
+
+ul.nav li a.home {
+	text-indent: -9999px;
+}

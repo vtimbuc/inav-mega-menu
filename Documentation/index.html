@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>iNav - Documentation</title>
+	<meta name="description" content="iNav CSS3 Mega Menu Documentation.">
+	<meta name="keywords" content="nav, inav, menu, mega, megamenu, drop, down, dropdown, apple, contact, form, sleek, glossy, search, color, generator, unlimited, css, html, html5, css3">
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+	<link rel="stylesheet" href="assets/prettify/prettify.css">
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;iNav - CSS3 Mega Menu&rdquo; Documentation by &ldquo;downv&rdquo; v2.2</h3>
+		
+		<hr>
+		
+		<a href="http://codecanyon.net/item/inav-css3-menu/807729?ref=downv"><h1 class="center">&ldquo;iNav - CSS3 Mega Menu&rdquo;</h1></a>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 13/11/2011<br>
+					Last Update: 03/12/2012<br>
+					By: Valeriu Timbuc @downv<br>
+					Support: <a href="http://vtimbuc.ticksy.com/">http://vtimbuc.ticksy.com/</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to submit a support ticket <a href="http://vtimbuc.ticksy.com/">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#menuVariants">Menu Variants</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#contactform">Contact Form</a></li>
+			<li><a href="#colortut">Create your custom color</a></li>
+			<li><a href="#log">Change Log</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+
+		<hr>
+		
+		<h3 id="menuVariants"><strong>A) Menu Variants</strong> - <a href="#toc">top</a></h3>
+		
+		<h4><strong>Variants</strong></h4>
+
+		<p>This menu have 4 variants:</p>
+
+		<ul>
+			<li>Horizontal Menu</li>
+			<li>Stiky Footer</li>
+			<li>Vertical Left</li>
+			<li>Vertical Right</li>
+		</ul>
+
+		<p>The files are organized in two folders. The first folder is the "Empty", this folder have four html files to start your iNav menu with less code. The second folder is "Examples" and have four html files, one for each variant with content examples. The CSS and HTML files are exactly the same in all menu variants, the only think that differs are the class names and the Stiky Footer Menu have 2 more divs to center the menu on page.</p>
+
+		<h4><strong>Colors</strong></h4>
+
+		<p>This menu have 11 preset difrent color schemes. To change the menu color scheme just add the respective color class to <code>&lt;ul class="nav <strong>blue</strong>"&gt;</code> .</p>
+
+		<ul>
+			<li><strong>Available colors:</strong></li>
+			<li>blue</li>
+			<li>darkcyan</li>
+			<li>green</li>
+			<li>yellowgreen</li>
+			<li>chocolate</li>
+			<li>gold</li>
+			<li>red</li>
+			<li>purple</li>
+			<li>hotpink</li>
+			<li>white</li>
+		</ul>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<h4><strong>&lt;HEAD&gt; of HTML file</strong></h4>
+		
+		<p>In the &lt;head&gt; of your html file you just need to add 3 links to load css files.</p>
+
+<pre class="prettyprint">&lt;!-- iNav Stylesheets --&gt;
+&lt;link href="css/inav.css" rel="stylesheet" media="screen"&gt;
+&lt;!--[if IE 8]&gt;&lt;link href="css/inav-ie-8.css" rel="stylesheet" media="screen"&gt;&lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;&lt;link href="css/inav-ie-7.css" rel="stylesheet" media="screen"&gt;&lt;![endif]--&gt;</pre>
+
+		<p>If you don't want to support IE remove the link of the respective version.</p>
+
+		<h4><strong>&lt;BODY&gt; of HTML file</strong></h4>
+
+		<p>Bellow is an example of the html structure, fore more info and examples take a look at the files in the "Menu Examples" folder.</p>
+
+		<h5><strong>Horizontal Menu</strong></h5>
+
+<pre class="prettyprint">&lt;ul class="nav"&gt;
+
+	&lt;li class="first"&gt;&lt;a href="#" class="home nav-item first"&gt;First&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href="#" class="nav-item"&gt;Second&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li class="last"&gt;&lt;a href="#" class="nav-item last"&gt;Third&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;!-- end .nav --&gt;</pre>
+
+		<h5><strong>Stiky Footer Menu</strong></h5>
+
+<pre class="prettyprint">&lt;div id="center-footer"&gt;
+
+	&lt;div id="footer-nav"&gt;
+	
+		&lt;ul class="nav"&gt;
+
+			&lt;li class="first"&gt;&lt;a href="#" class="home nav-item first"&gt;First&lt;/a&gt;&lt;/li&gt;
+
+			&lt;li&gt;&lt;a href="#" class="nav-item"&gt;Second&lt;/a&gt;&lt;/li&gt;
+
+			&lt;li class="last"&gt;&lt;a href="#" class="nav-item last"&gt;Third&lt;/a&gt;&lt;/li&gt;
+		
+		&lt;/ul&gt;&lt;!-- end .nav --&gt;
+
+	&lt;/div&gt;&lt;!-- end #footer-nav --&gt;
+
+&lt;/div&gt;&lt;!-- end #center-footer --&gt;</pre>
+
+		<h5><strong>Vertical Left Menu</strong></h5>
+
+<pre class="prettyprint">&lt;ul class="nav vertical"&gt;
+
+	&lt;li class="first"&gt;&lt;a href="#" class="home nav-item first"&gt;First&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href="#" class="nav-item"&gt;Second&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li class="last"&gt;&lt;a href="#" class="nav-item last"&gt;Third&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;!-- end .nav --&gt;</pre>
+
+		<h5><strong>Vertical Right Menu</strong></h5>
+
+<pre class="prettyprint">&lt;ul class="nav vertical right"&gt;
+
+	&lt;li class="first"&gt;&lt;a href="#" class="home nav-item first"&gt;First&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href="#" class="nav-item"&gt;Second&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li class="last"&gt;&lt;a href="#" class="nav-item last"&gt;Third&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;!-- end .nav --&gt;</pre>
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>C) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using three CSS files in this navigation menu. The first one is a generic file. Many browser interpret the CSS code differently and the browser who most differe is the Internet Explorer, so I've created 2 more css files to make the menu compatible with IE8 and IE7. The IE6 is a very old browser and is hard to make this menu work in this version, so IE6 it's not supported.</p>
+
+		<p>The file is separated into section:</p>  
+
+<pre class="prettyprint">/**************************************************
+
+	01. RESET & FONTS & OTHERS
+	02. MENU GENERAL STYLING
+	03. DROPDOWN STYLING & LAYOUT
+	04. SEARCH FORM
+	05. LOGIN FORM
+	06. CONTENT STYLING
+	07. STIKY FOOTER
+	08. VERTICAL MENU
+	09. VERTICAL MENU RIGHT
+	10. EXTRA COLORS
+
+**************************************************/</pre>
+		
+		<p>If you would like to edit a specific section of the menu, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+
+		<hr>
+
+		<h3 id="contactform"><strong>D) Contact Form</strong> - <a href="#toc">top</a></h3>
+
+		<p>To create you working contact form add this html to the menu:</p>
+
+<pre class="prettyprint">&lt;!-- Contact Item | Start --&gt;
+
+&lt;li class="contact-nav"&gt;&lt;a href="#" class="nav-item drop"&gt;Contact&lt;/a&gt;
+
+	&lt;div class="drop-form left"&gt;
+
+		&lt;div class="inav-cffb"&gt;&lt;div class="inav-alert"&gt;&lt;/div&gt;&lt;/div&gt;
+
+		&lt;form action="contact/process.php" method="post" id="inav-cform"&gt;
+			
+			&lt;input type="text" name="name" id="name" placeholder="Your Name"&gt;
+			&lt;input type="email" name="email" id="email" placeholder="email@email.com"&gt;
+			&lt;textarea name="message" id="message"&gt;&lt;/textarea&gt;
+			&lt;input type="submit" value="Send Message"&gt;
+
+		&lt;/form&gt;
+
+		&lt;hr&gt;
+
+		&lt;ul class="social"&gt;
+			&lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/social/facebook.png" alt="Facebook"&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/social/twitter.png" alt="Twitter"&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/social/rss.png" alt="RSS Feed"&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/social/vimeo.png" alt="Vimeo"&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/social/dribbble.png" alt="Dribbble"&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+
+	&lt;/div&gt;&lt;!-- end .drop-normal-box --&gt;
+
+&lt;/li&gt;
+
+&lt;!-- Contact Item | End --&gt;</pre>
+
+	<p>Then add this two JavaScript links before the ending of your body tag and edit the "config.php" file.</p>
+
+<pre class="prettyprint">&lt;!-- Contact Form JS --&gt;
+&lt;script type="text/javascript" src="contact/jquery-1.8.3.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="contact/jquery-form.min.js"&gt;&lt;/script&gt;
+&lt;!-- end Contact Form JS --&gt;</pre>
+
+	
+
+
+		<hr>
+		
+		<h3 id="colortut"><strong>E) Create your custom color</strong> - <a href="#toc">top</a></h3>
+
+		<p>I've created a Color Scheme Creator, with this tool you can create your custom color scheme very easily.</p>
+
+		<h3><a href="http://vtimbuc.net/envato/demo/inav/generator/">iNav Color Scheme Creator</a></h3><br>
+
+		<hr>
+
+		<h3 id="log"><strong>F) Change Log</strong> - <a href="#toc">top</a></h3>
+
+		<ul>
+			<strong>Version 2.2 - 03/12/2012</strong>
+			<li>General improvements and optimizations.</li>
+			<li>Fixed some bugs.</li>
+		</ul>
+
+		<ul>
+			<strong>Version 2.1</strong>
+			<li>Improved documentation.</li>
+			<li>Fixed some issues in preview files.</li>
+		</ul>
+
+		<ul>
+			<strong>Version 2.0</strong>
+			<li>Added a working contact form.</li>
+			<li>Changend the way how content is organized, now based in colunms.</li>
+			<li>Some bugs fixed.</li>
+			<li>And a lot of minor code edited.</li>
+
+			<p><strong>Important:</strong> This new version will not work with the old HTML code, please before updating take a look at the examples html files.</p>
+		</ul>
+
+		<ul>
+			<strong>Version 1.1</strong>
+			<li>Color Generator</li>
+			<li>Some ajustments in HTML & CSS</li>
+		</ul>
+
+		<ul>
+			<strong>Version 1.0</strong>
+			<li>First release</li>
+		</ul>
+		
+		<hr>
+
+		<h3 id="credits"><strong>G) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li><a href="http://dribbble.com/shots/113249-Social-Icons-PSD" target="_blank">Social Icons PSD</a></li>
+			<li><a href="http://midmodesign.com/news/coding/jquery-ajax-contact-form-with-honeypot/">Contact Form</a></li>
+			<li><a href="http://jquery.com/">jQuery</a></li>
+		</ul>
+
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this item. As I said at the beginning, I'd be glad to help you if you have any questions relating to this item. No guarantees, but I'll do my best to assist. If you have a more general question relating to the items on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Valeriu Timbuc</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+
+<script type="text/javascript" src="assets/prettify/prettify.js"></script>
+<script type="text/javascript">
+	prettyPrint();
+</script>
+</body>
+</html>
